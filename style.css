@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Poller+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --verde-cinza: #606c38ff;
+    --verde-escuro: #283618ff;
+    --bege: #fefae0ff;
+    --laranja: #dda15eff;
+    --morrom: #bc6c25ff;
+    --font-titulo: "Inria Sans", sans-serif;
+    --fonte-texto:  "Poller One", serif;
+}
+
+body{
+    background-color: var(--bege);
+    font-family: var(--fonte-texto);
+    color: var(--verde-cinza);
+    height: 100vh;
+}
+
+header{
+    background-color: var(--verde-escuro);
+    text-align: center;
+}
+
+h1{
+    font-family: var(--font-titulo);
+    font-size: 3rem;
+    color: var(--laranja);
+    padding: 1.5rem 0;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+}
+
+nav a{
+    text-decoration: none;
+    color: var(--morrom);
+    font-size: 2rem;
+    margin: 0 2rem 1rem 0 ;
+}
