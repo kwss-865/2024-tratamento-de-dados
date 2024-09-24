@@ -9,7 +9,7 @@
     --verde-escuro: #283618ff;
     --bege: #fefae0ff;
     --laranja: #dda15eff;
-    --morrom: #bc6c25ff;
+    --marrom: #bc6c25ff;
     --font-titulo: "Inria Sans", sans-serif;
     --fonte-texto:  "Poller One", serif;
 }
@@ -41,7 +41,26 @@ nav{
 
 nav a{
     text-decoration: none;
-    color: var(--morrom);
+    color: var(--marrom);
     font-size: 2rem;
     margin: 0 2rem 1rem 0 ;
+}
+
+nav a:hover{
+    text-transform: underline;
+    color: var(--bege);
+    transform: scale(0.9);
+    transition: transform 0.3s;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--verde-escuro);
+    color: var(--laranja);
+    width: 100%;
+    height: 3rem;
+    margin-top: 2rem;
+    font-size: 1.8rem;
 }

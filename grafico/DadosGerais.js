@@ -1,0 +1,1 @@
+const url =' https://raw.githubusercontent.com/kwss-865/API_.../refs/heads/main/entrevista.json'
