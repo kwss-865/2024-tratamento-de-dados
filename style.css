@@ -17,7 +17,7 @@
 body{
     background-color: var(--bege);
     font-family: var(--fonte-texto);
-    color: var(--verde-cinza);
+    color: var(--laranja);
     height: 100vh;
 }
 
@@ -63,6 +63,12 @@ nav a:hover{
     padding: 2rem;
     border-radius: 15px;
     border: var(--verde-escuro) double 5px;
+}
+
+span{
+    font-family: var(--font-titulo);
+    color: var(--marrom);
+    font-size: 40px;
 }
 
 footer{
