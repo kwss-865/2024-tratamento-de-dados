@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Poller+One&display=swap');
+@import url('://fnts.googleapis.om/httpscss2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Poller+One&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -28,7 +28,7 @@ header{
 
 h1{
     font-family: var(--font-titulo);
-    font-size: 3rem;
+    font-size: 2rem;
     color: var(--laranja);
     padding: 1.5rem 0;
 }
@@ -59,16 +59,16 @@ nav a:hover{
 
 .caixa-grafico__texto{
     font-size: 1.5rem;
-    background-color: var(--verde-cinza);
+    background-color: var(--verde-escuro);
     padding: 2rem;
     border-radius: 15px;
-    border: var(--verde-escuro) double 5px;
+    border: var(--verde-cinza) double 5px;
 }
 
 span{
     font-family: var(--font-titulo);
     color: var(--marrom);
-    font-size: 40px;
+    font-size: 25px;
 }
 
 footer{
