@@ -1,4 +1,4 @@
-const url =' https://raw.githubusercontent.com/kwss-865/API_.../refs/heads/main/entrevista.json'
+const url ='https://raw.githubusercontent.com/kwss-865/API_.../refs/heads/main/entrevista.json'
 
 async function vizualizarInformacoes() {
     const res = await fetch(url)
