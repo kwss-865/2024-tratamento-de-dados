@@ -1,4 +1,4 @@
-@import url('://fnts.googleapis.om/httpscss2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Poller+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -11,7 +11,7 @@
     --laranja: #dda15eff;
     --marrom: #bc6c25ff;
     --font-titulo: "Inria Sans", sans-serif;
-    --fonte-texto:  "Poller One", serif;
+    --fonte-texto:  "Ubuntu", sans-serif;
 }
 
 body{
@@ -29,7 +29,7 @@ header{
 h1{
     font-family: var(--font-titulo);
     font-size: 2rem;
-    color: var(--laranja);
+    color: var(--marrom);
     padding: 1.5rem 0;
 }
 
@@ -41,7 +41,7 @@ nav{
 
 nav a{
     text-decoration: none;
-    color: var(--marrom);
+    color: var(--laranja);
     font-size: 2rem;
     margin: 0 2rem 1rem 0 ;
 }
@@ -55,14 +55,16 @@ nav a:hover{
 
 .caixa-grafico{
     margin: 5rem;
-}
-
-.caixa-grafico__texto{
     font-size: 1.5rem;
     background-color: var(--verde-escuro);
     padding: 2rem;
     border-radius: 15px;
     border: var(--verde-cinza) double 5px;
+}
+
+.caixa-grafico__texto{
+    font-size: 1.5rem;
+    padding: 2em 0 2.5em 0; 
 }
 
 span{
