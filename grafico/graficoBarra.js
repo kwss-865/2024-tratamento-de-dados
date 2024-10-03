@@ -25,7 +25,7 @@ async function criarGraficoBarra(){
         title:{
             text: 'Os consoles mais vendidos no Mundo ',
             font:{
-                color: pegarCSS('--laranja'),
+                color: pegarCSS('--marrom'),
                 family: pegarCSS('--fonte-titulo'),
                 size: 50
             }
