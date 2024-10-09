@@ -19,7 +19,12 @@ async function criarGraficoPizza(){
         heigth: 400,
         width: 600,
         plot_bgcolor: pegarCSS('--marrom'),
-        paper_bgcolor: pegarCSS('--verde-escuro')
+        paper_bgcolor: pegarCSS('--verde-escuro'),
+        font:{
+            color: pegarCSS('--laranja'),
+            family: pegarCSS('--fonto-titulo'),
+            size: 16,
+        }
     }
 
     const consolesTitulo = document.createElement('h3')

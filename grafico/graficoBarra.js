@@ -22,12 +22,13 @@ async function criarGraficoBarra(){
     const layout = {
         plot_bgcolor: pegarCSS('--bege'),
         paper_bgcolor: pegarCSS('--verde-escuro'),
+        width: 1000,
         title:{
             text: 'Os consoles mais vendidos no Mundo ',
             font:{
                 color: pegarCSS('--marrom'),
                 family: pegarCSS('--fonte-titulo'),
-                size: 50
+                size: 40
             }
         },
         xaxis: {

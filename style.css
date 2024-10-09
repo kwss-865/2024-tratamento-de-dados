@@ -60,6 +60,9 @@ nav a:hover{
     padding: 2rem;
     border-radius: 15px;
     border: var(--verde-cinza) double 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
 }
 
 .caixa-grafico__texto{
