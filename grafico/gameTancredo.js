@@ -4,14 +4,14 @@ async function graficosTancredo(){
     const url = 'https://raw.githubusercontent.com/kwss-865/API_.../refs/heads/main/pesquisaTancredo.json'
     const res = await fetch(url)
     const dados = await res.json()
-    const consolesVotados = dados.slice(1).map(consoles => consoles[1])
-    const contagemConsoles = consolesVotados.reduce((acc, consolesVotados) => {
-        acc[consolesVotados] = (acc[consolesVotados] || 0) + 1 
+    const turmasParticipantes = dados.slice(1).map(turmas => turmas[1])
+    const contagemTurmas = turmasParticipantes.reduce((acc, turmasParticipantes) => {
+        acc[turmasParticipantes] = (acc[turmasParticipantes] || 0) + 1 
         return acc
     }, {})
 
-    const valores = Object.values(contagemConsoles)
-    const etiqueta = Object.keys(contagemConsoles)
+    const valores = Object.values(contagemTurmas)
+    const etiqueta = Object.keys(contagemTurmas)
 
     const data = [
         {
